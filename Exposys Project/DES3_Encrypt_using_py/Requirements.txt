@@ -1,0 +1,35 @@
+Python: Ensure you have Python installed. This script is compatible with Python 3.x.
+
+pycryptodome Library:
+
+Installation: You need to install the pycryptodome library, which provides cryptographic functions.
+Installation Command:
+bash
+Copy code
+pip install pycryptodome
+File System Access: The script requires access to the file system to read and write files. Ensure that the file paths provided exist and that you have the necessary permissions.
+
+Summary of Required Components:
+Python 3.x installed on your system.
+pycryptodome library, which you can install using pip.
+Proper file paths for the input file you wish to encrypt or decrypt.
+A Triple DES (3DES) key for encryption/decryption.
+Code Execution
+Run the Script:
+
+Save the script to a file, for example, file_crypto.py.
+Execute the script using Python from the terminal:
+bash
+Copy code
+python file_crypto.py
+Follow Prompts:
+
+The script will prompt you to choose between encryption and decryption.
+Provide the file path and the key when prompted.
+File Handling:
+
+The script reads the file, performs the chosen operation (encrypt or decrypt), and writes the result back to the file.
+Additional Notes
+Key Size: The key provided should be 16 bytes in length. The md5 hash function is used to ensure the key is of the correct size.
+Nonce Handling: The nonce is set to b'0', which may not be ideal for production environments. For better security, use a unique nonce for each encryption operation.
+If you have any questions about the script or encounter issues, feel free to ask!
