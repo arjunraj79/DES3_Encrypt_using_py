@@ -2,7 +2,7 @@
 
 This project demonstrates how to encrypt and decrypt an image using the **Triple DES (3DES)** encryption algorithm in Python. The encrypted image is stored as a binary file, and the decrypted image is restored from this binary file.
 ## Video Demo
-[https://drive.google.com/file/d/1eAWFNDEqN_H-x7PpLpPKYi7hN5uMPoHm/view?usp=sharing](url)
+[https://drive.google.com/file/d/1eAWFNDEqN_H-x7PpLpPKYi7hN5uMPoHm/view?usp=drive_link](url)
 ## Features
 - Encrypt an image using Triple DES.
 - Save the encrypted data in a binary file.
